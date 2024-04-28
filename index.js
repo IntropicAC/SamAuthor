@@ -1,7 +1,5 @@
 // Define an array of quotes
 const quotes = [
-    "The first draft is just you telling yourself the story - Terry Pratchett",
-    "Books are a uniquely portable magic. - Stephen King",
     "The only way out is through. - Robert Frost",
     "The greatest glory in living lies not in never falling, but in rising every time we fall. - Nelson Mandela",
     "The only person you should try to be better than is the person you were yesterday.",
