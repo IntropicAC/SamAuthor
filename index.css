@@ -126,8 +126,13 @@ blockquote {
 }
 #About{
     padding-top: 0.9rem;
-    padding-bottom: 3rem;
+    padding-bottom: 7rem;
 }
+
+.aboutMe{
+    font-size: 2rem;
+}
+
 #Books{
     height: 100rem;
     padding: 3rem 0rem;
@@ -137,20 +142,20 @@ footer {
     color: white;
     text-align: center;/* 10px 20px */
     font-size: 2rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 footer a {
     color: white;
     text-decoration: none;
     padding-right: 2rem; /* 10px */
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
-.stone {
-    background-color: rgb(55, 55, 55);
+.stone1, .stone2, .stone3 {
+    background-color: rgb(84, 84, 84);
     
 }
 
@@ -235,11 +240,12 @@ footer a {
 
 
 h2 span{
-    background-color: azure;
+    background-color: rgb(240, 255, 255);
     padding: 1rem;
     border-radius: 1rem;
     text-decoration: none;
     padding: 1rem;
+    color: #000;
 }
 
 a{
@@ -248,7 +254,7 @@ a{
 }
 .buy{
     display: inline-block;
-    background-color: azure;
+    background-color: rgb(240, 255, 255);
     color: #000;
     padding: 1rem;
     border-radius: 0.5rem;
@@ -260,6 +266,7 @@ a{
 
 .buy-container{
     text-align: center;
+    justify-content: center;
     margin-right: 2rem;
     padding-bottom: 3rem;
     margin-bottom: 2rem;
@@ -271,3 +278,11 @@ a{
     align-items: center;
     text-align: center;
   }
+
+  
+  @media (prefers-color-scheme: dark) {
+    h2 span {
+        background-color: rgb(255, 255, 255) ;
+        color: rgb(0, 0, 0);
+    }
+}
