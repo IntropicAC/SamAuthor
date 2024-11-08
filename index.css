@@ -135,23 +135,20 @@ blockquote {
 
 #Books{
     height: 100rem;
-    padding: 3rem 0rem;
 }
 footer {
     background-color: #222;
     color: white;
     text-align: center;/* 10px 20px */
-    font-size: 2rem;
+    font-size: 2.5rem;
     padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-bottom: 10rem;
 }
 
 footer a {
     color: white;
     text-decoration: none;
-    padding-right: 2rem; /* 10px */
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    margin-right: 3rem;
 }
 
 .stone1, .stone2, .stone3 {
@@ -239,8 +236,7 @@ footer a {
 
 
 
-h2 span{
-    background-color: rgb(240, 255, 255);
+h2{
     padding: 1rem;
     border-radius: 1rem;
     text-decoration: none;
@@ -263,6 +259,10 @@ a{
     border: solid black 0.2rem;
     font-weight: bold;
 }
+.buy:hover{
+    background-color: rgb(198, 208, 208);
+    transform: scale(1.02);
+}
 
 .buy-container{
     text-align: center;
@@ -274,15 +274,21 @@ a{
 
 
   .social-link{
-    font-size: 4rem;
+    font-size: 6rem;
     align-items: center;
     text-align: center;
   }
 
   
   @media (prefers-color-scheme: dark) {
-    h2 span {
-        background-color: rgb(255, 255, 255) ;
-        color: rgb(0, 0, 0);
+    h2 {
+        display: inline-block;
+        background-color: rgb(103, 103, 103) !important; 
+        color: rgb(255, 255, 255) !important;
+        
+    }
+    .stone1, .stone2, .stone3 {
+        background-color: rgb(84, 84, 84);
+        
     }
 }
