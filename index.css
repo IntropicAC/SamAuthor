@@ -283,8 +283,7 @@ a{
   @media (prefers-color-scheme: dark) {
     h2 {
         display: inline-block;
-        background-color: rgb(130, 130, 130) !important; 
-        color: rgb(255, 255, 255) !important;
+        
         
     }
     .stone1, .stone2, .stone3 {
