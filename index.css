@@ -134,7 +134,7 @@ blockquote {
 }
 
 #Books{
-    height: 90rem;
+    height: 100rem;
 }
 footer {
     background-color: #222;
@@ -269,7 +269,7 @@ a{
     justify-content: center;
     margin-right: 2rem;
     padding-bottom: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 }
 
 
