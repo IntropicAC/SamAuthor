@@ -102,6 +102,10 @@ main {
     padding-left: 2rem;
 }
 
+.category{
+    background-color: azure;
+}
+
 #quote {
     transition: opacity 0.5s ease; /* Adjust the transition duration and timing function as needed */
 }
